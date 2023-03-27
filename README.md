@@ -1,4 +1,2 @@
 # literate-lamp
 
-$ directory.ssh
-
