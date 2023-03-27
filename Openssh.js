@@ -53,4 +53,4 @@ ssh-add~/path/to/my/key
 > Run 'git help git' to display the help index.
 > Run 'git help ' to display help for specific commands.
 
-$ Open ssh
+$ Open .ssh-keygen
