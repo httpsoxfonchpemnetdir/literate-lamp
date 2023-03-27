@@ -1,4 +1,4 @@
-$ ssh-keygen -t ed25519 -C "httpsoxfonchpemnetdir"
+$ ssh-keygen -t  -C "httpsoxfonchpemnetdir"
 > Generating public/private ALGORITHM key pair.
 > Enter a file in which to save the key (/home/YOU/.ssh/ALGORITHM):Enter
 > Enter passphrase (empty for no passphrase): Enter
@@ -7,14 +7,14 @@ $ ssh-keygen -t ed25519 -C "httpsoxfonchpemnetdir"
 $ eval "$(ssh-agent -s)"
 > Agent pid 59566
 
-$ ssh-add ~/.ssh/id_ed25519
+$ ssh-add ~/.ssh/id_
 
-$ ssh-keygen -t ed25519-sk -C "hectorglezleon@gmail.com"
+$ ssh-keygen -t -sk -C "hectorglezleon@gmail.com"
 > Enter a file in which to save the key (/home/YOU/.ssh/id_ed25519_sk):Enter
 > Enter passphrase (empty for no passphrase): Enter
 > Enter same passphrase again: Enter
 
-$ ssh-keygen -p -f ~/.ssh/id_ed25519
+$ ssh-keygen -p -f ~/.ssh/id_
 > Enter old passphrase: Enter
 > Key has comment 'Enter'
 > Enter new passphrase (empty for no passphrase): Enter
