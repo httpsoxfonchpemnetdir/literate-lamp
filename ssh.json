@@ -8,7 +8,7 @@ $ eval "$(ssh-agent -s)"
 > Agent pid 59566
 $ ssh-add ~/.ssh/id_ed25519
 
-$ ssh-keygen -t ed25519-sk -C "GitHubAccount"
+$ ssh-keygen -t ed25519-sk -C "httpsoxfonchpemnetdir"
 > Enter a file in which to save the key (/home/YOU/.ssh/id_ed25519_sk):[Press enter]
 > Enter passphrase (empty for no passphrase): [Now sky is open]
 > Enter same passphrase again: [Now sky si open]
