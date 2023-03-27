@@ -1,2 +1,7 @@
 $ ls -al ~/.ssh 
-# Lists the files on my .ssh direction
+$ # Lists the files on my .ssh direction
+$ id_rsa.pub
+$ id_ecdsa.pub
+$ id_ed25519.pub
+$ ssh -A server A 'bash -s <deploy.sh
+$ exit
