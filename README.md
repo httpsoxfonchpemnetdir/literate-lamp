@@ -1,4 +1,4 @@
 # literate-lamp
 
-$ directora.ssh
+$ directory.ssh
 
