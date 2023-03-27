@@ -1,6 +1,6 @@
 $ ssh-keygen -t ed25519 -C "hectorglezleon@gmail.com"
 > Generating public/private ALGORITHM key pair.
-> Enter a file in which to save the key (/home/YOU/.ssh/ALGORITHM):[Press enter]
+> Enter a file in which to save the key (/home/YOU/.ssh/ALGORITHM):Enter
 > Enter passphrase (empty for no passphrase): [Now sky si open]
 > Enter same passphrase again: [Now sky si open]
 
@@ -9,7 +9,7 @@ $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_ed25519
 
 $ ssh-keygen -t ed25519-sk -C "httpsoxfonchpemnetdir"
-> Enter a file in which to save the key (/home/YOU/.ssh/id_ed25519_sk):[Press enter]
+> Enter a file in which to save the key (/home/YOU/.ssh/id_ed25519_sk):Enter
 > Enter passphrase (empty for no passphrase): [Now sky is open]
 > Enter same passphrase again: [Now sky si open]
 
@@ -52,3 +52,5 @@ ssh-add~/path/to/my/key
 >
 > Run 'git help git' to display the help index.
 > Run 'git help ' to display help for specific commands.
+
+$ Open ssh
