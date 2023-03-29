@@ -1,6 +1,2 @@
-$ npm start 
-run 
-$ ls -al ~/.ssh
-# Lists the files in .ssh directory, if they exist
-$ Open Lists
-$ exit
+
+$ gpg --list-secret-keys --keyid-format=long
