@@ -1,1 +1,2 @@
-$ docker run -i -t docker container create /bin/bash exit
+$ docker run -i -t docker container create /bin/bash 
+$ exit
