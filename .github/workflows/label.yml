@@ -20,4 +20,4 @@ jobs:
     - uses: actions/labeler@v4
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-$ run $ build .github/labeler.yml
+$ build & run .github/labeler.yml
